@@ -44,4 +44,4 @@ Complete example
 Usage
 -----
 
-See [github page](https://l-lin.github.io/angular-datatables).
+See [angular datatables website](https://l-lin.github.io/angular-datatables).
