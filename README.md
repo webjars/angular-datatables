@@ -14,7 +14,7 @@ Include the JS file in your `index.html` file:
 
 **IMPORTANT**: You must include the JS **AFTER** `jQuery` and `DataTables`!
 
-Wthis RequireJS/AMD, this is
+With RequireJS/AMD, this is
 
 ```javascript
 // Load webjars config script first. See http://www.webjars.org/documentation
@@ -28,7 +28,7 @@ If you want the `Twitter Bootstrap` support, then add the CSS file:
 <link rel="stylesheet" href="/webjars/angular-datatables/0.4.0/plugins/bootstrap/datatables.bootstrap.css">
 ```
 
-NOTE: The path changed in v0.4.0.
+NOTE: The path changed in v0.4.0. To load this with the require-css plug-in use `css!angular-datatables.bootstrap-css`.
 
 
 Declare dependencies on your module app like this:

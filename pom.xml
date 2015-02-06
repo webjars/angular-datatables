@@ -26,6 +26,7 @@
                 "paths": {
                     "angular-datatables": "angular-datatables",
                     "angular-datatables.bootstrap": "plugins/bootstrap/angular-datatables.bootstrap",
+                    "angular-datatables.bootstrap-css": "plugins/bootstrap/datatables.bootstrap",
                     "angular-datatables.colreorder": "plugins/colreorder/angular-datatables.colreorder",
                     "angular-datatables.columnfilter": "plugins/columnfilter/angular-datatables.columnfilter",
                     "angular-datatables.colvis": "plugins/colvis/angular-datatables.colvis",
