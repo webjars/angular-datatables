@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>angular-datatables</artifactId>
-    <version>0.4.2-SNAPSHOT</version>
+    <version>0.4.2</version>
     <name>angular-datatables</name>
     <description>WebJar for angular-datatables</description>
     <url>http://webjars.org</url>
@@ -70,7 +70,7 @@
         <url>http://github.com/webjars/angular-datatables</url>
         <connection>scm:git:https://github.com/webjars/angular-datatables.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/angular-datatables.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>angular-datatables-0.4.2</tag>
     </scm>
 
     <dependencies>
@@ -121,11 +121,11 @@
                         <goals><goal>run</goal></goals>
                         <configuration>
                             <target>
-                                <echo message="unzip archive"/>
-                                <unzip src="${project.build.directory}/${project.artifactId}.zip" dest="${project.build.directory}"/>
-                                <echo message="moving resources"/>
+                                <echo message="unzip archive" />
+                                <unzip src="${project.build.directory}/${project.artifactId}.zip" dest="${project.build.directory}" />
+                                <echo message="moving resources" />
                                 <move todir="${destDir}">
-                                    <fileset dir="${project.build.directory}/${project.artifactId}-${upstream.version}/dist"/>
+                                    <fileset dir="${project.build.directory}/${project.artifactId}-${upstream.version}/dist" />
                                 </move>
                             </target>
                         </configuration>
